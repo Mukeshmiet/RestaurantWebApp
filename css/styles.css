@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #68020f;
+}
+
+.navbar{
+    height: 3rem;
+    background-color: #030303;
+}
+
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    line-height: normal;
+}
+
+img.navbar-logo {
+    height: 2rem;
+    width: 2rem;
+}
+
+.navbar a{
+    color: #fffffe;
+    font-weight: 500;
+}
+
+.nav-item a:hover{
+    color: #f21137;
+    font-weight: 200;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), #000000),url('../images/pexels-chanwalrus-958545.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55vw;
+    border-radius: 1rem;
+}
+
+.position-relative {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.lead-intro {
+    font-size: 1.0rem;
+    font-weight: 200;
+    width: 90%;
+}
+
+.text-center{
+    color: #f21137;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-info {
+    padding: 1rem;
+}
+
+.menu-info h2 {
+    margin: .5rem 0;
+    color: #fff;
+}
+
+.menu-info p{
+    color: #fff;
+}
+
+.menu-info span {
+    font-size: 1.25rem;
+    color: #d9534f;
+}
+
+.about-body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), #000000), url(../images/pexels-vanmalidate-784633.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.grad{
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), #f21137);
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.about-body .lead{
+    font-weight: 600;
+    color: #e64545;
+}
+
+.about-body .lead-intro{
+    color: #fff;
+}
+
+.form-group label{
+    color: #fff;
+}
+
+.form-control {
+    color: #fff !important;
+    background-color:  #541412!important;
+  }
+
+.control-body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/395534-1051399.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer Styles */
+footer {
+    color: #929292 !important;
+    padding: 0 0;
+    margin: 0 0;
+    position: relative;
+    bottom: 0;
+}
+
+footer p{
+    font-size: 0.8rem;
+    margin: 0 0;
+    padding: 0 0;
+}
