@@ -1,3 +1,3 @@
 # RestaurantWebApp
 
-Site: https://mukeshmiet.github.io/RestaurantWebApp/
+Site: https://mukesh-web-dev.github.io/RestaurantWebApp/
